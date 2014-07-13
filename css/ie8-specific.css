@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+/* ------------------------------- LAYOUT ------------------------------ */
+ 
+.page-wrapper {
+	width: 1024px !important;
+}
+
+.agency-wrapper-ie8 {
+	width: 50%;
+	margin: 0 25%;
+}
+
+.grouped-border {
+	border-top: 1px solid #ddd;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+
+.radio {
+	padding-left: 20px;
+}
+.form-block {
+	padding-bottom: 0;
+	margin-bottom: 0
+}
+
+.life-ie8 {
+	float: left;
+	width: 50%;
+}
+
+.product-ie8 {
+	width: 50%;
+	margin: 0 25%
+}
+
+
+/* -------------------------------------- FORMS --------------------------------- */
+
+.form-group {
+	margin-bottom: 20px !important;	
+}
+input[type=radio].css-checkbox,
+input[type=checkbox].css-checkbox {
+	display:block;
+	padding-left: 0;
+	margin-left: -15px;
+	z-index: 1000
+}
+input[type=checkbox].css-checkbox {
+	padding-left: 20px;
+}
+input[type=radio].css-checkbox + label.css-label-radio,
+input[type=radio].css-checkbox + label.css-label-checkbox {
+	padding-left: 0;
+}
+label.css-label-radio,
+label.css-label-checkbox {
+	background-image:none;
+}
+
+
+
+
+
+
+
